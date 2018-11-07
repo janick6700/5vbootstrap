@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+  .bg-1 { 
+      background-color: #474e5d; /* dark blue */
+      color: #ffffff;
+  }
+ .bg-2 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-3 { 
+      background-color: #474e5d; /* dark blue */
+      color: #ffffff;
+  .bg-4 { 
+      background-color: #2f2f2f; /* dark gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+<!-- Ik heb de kleuren veranderd  -->
+
+
+-->
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div class="col-xs-12">
+      <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> janick van marken</button>
+    </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#ik"><button class="btn btn-block btn-primary"> <i class="fa fa-thumbs-up" ></i> wie ben ik</button></a></li>
+        <li><a href="#leuk"><button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> wat vind ik leuk</button></a></li>
+       
+      </ul>
+    </div>
+	
+
+  </div>
+</nav>
+<!-- ik heb de buttons toegevoegd   -->    
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">    
+  <h3  class="margin">Ik ben Janick van Marken</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+<img src="https://mail.google.com/mail/u/0?ui=2&ik=5a556737a0&attid=0.2&permmsgid=msg-a:r-5389884095325034693&th=166811a0c87cd9b3&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_vP0oy0SurN38RvhbL0PBidU2nAuRGLqyIbE5gCeCApiWLkvvGOnqpb0TCHbi0Ioz_6Xcx5ADn5shWVEaMJTH7fmlT6X3NaZRyB4d06k4cjFCXljBQ_1z1aPE&disp=emb&realattid=1668119360015534deb1" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+	<div class="col-sm-4"> 
+<img src="https://mail.google.com/mail/u/0?ui=2&ik=5a556737a0&attid=0.1&permmsgid=msg-a:r-5389884095325034693&th=166811a0c87cd9b3&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-Gby6S5pgd8bVUMn3f53OzEcPiOsruxFY_VOc9J6Cta_jV7SaUFEAXDqc8srj4PGwKcBp4zAwSMEL5DGRYl8o8P-ArtDK_kZLn53YqoxEOUxcECWp1iealwzM&disp=emb&realattid=1668119d61ee0b64ad82" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>   
+	<div class="col-sm-4"> 
+<img src="https://mail.google.com/mail/u/0?ui=2&ik=5a556737a0&attid=0.1&permmsgid=msg-a:r-4708862265299677808&th=16680f8e9668d2fb&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_4vrWGzvcvvS486_X6bJq1Lh0RjRTp9EOUnyJP_MhivEYX_mQ1jp-bXr9Sjnrjddo3K9mSYXFFRO9TG1enkThaA5tPGqmnPmhifm1ec8_PL38Co5g0_44JQWg&disp=emb&realattid=16680f8d5ffcaa928ea1" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+	</div>
+	</div>
+</div>
+<!-- Ik heb deze afbeeldingen toegevoegd en de grootte veranderd --> 
+
+<!-- Second Container -->
+
+  
+</div>
+<div class="container-fluid bg-3 text-center">    
+  <h3 id="ik" class="margin">wie ben ik?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Ik ben geboren in het ONze lieve vrouwe gasthuis in amsterdam op 23 juli 2002. </p>
+      <img src="https://www.olvg.nl/sites/default/files/oost.jpg" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p> Mijn hele leven woon ik al in de celsiusstraat in Amsterdam oost. </p>
+      <img src="https://bb.goesenroos.nl/Sikkes/WONEN/20170919111623761/Celsiusstraat%2027%20-%203.jpg" class=" img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Ik begon op de middelbare school het 4e gymnasium, maar na de 2e klas ben ik daar weggegaan omdat ik het te ver fietsen vond en hier veel van mijn vrienden zaten</p>
+      <img src="https://www.het4egymnasium.nl/fileadmin/_processed_/5/c/csm_4eGym_002_9640600e55.jpg" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">    
+ 
+  <div class="row">
+    <div class="col-sm-4">
+      <p> Ik zit nu in de 5e klas van het Monstessori Lyceum Amsterdam, Ik zit hier sinds de 3e klas.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Montessori_Lyceum_Amsterdam.jpg" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p> Ik zit al sinds dat ik 4 jaar oud ben op voetbal. Ik ben begonnen bij taba en heb daar 9 jaar gespeeld  </p>
+      <img src="https://www.afctaba.nl/wp-content/uploads/2017/06/TABA_JO15-4_kampioen_2016_17.jpg" class=" img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p> Toen heb ik besloten om naar Wilhelmina Vooruit Hortus Eendracht doet winnen, oftewel WVHEDW.
+  Na 3 jaar bij WVHEDW gespeeld te hebben heb ik besloten om weer terug te gaan naaqr Taba omdat ik geen zin meeer had om op een heel hoog niveau te spelen en niet meer zo vaak wilde trainen. 
+  Nu ben ik net begonnen aan mijn 2e seizoen bij taba en ik speel in de O19-1.  </p>
+      <img src="http://www.rkav-volendam.nl/resources/uploads/news/2017-18/zaterdag1/20171007-Volendam-WVHEDW-foto-Jan-Vonk-Ashraf-Azzouz.jpg" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 id="leuk" class="margin">wat vind ik leuk?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Ik vind het leuk om te voetballen </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Football_iu_1996.jpg/266px-Football_iu_1996.jpg" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Ik hou erg van gamen, vooral van fifa 19</p>
+      <img src="https://gamemania-sec.azureedge.net/-/media/Sites/GameMania/Products/Games/F/FIFA/FIFA-19/FIFA-19-Standaard-PS4.jpg?v=zmZaovzAykK3LENSqXY8TA&Type=Large" class=" img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Ik vind het ook heel gezellig om met mijn vrienden te zijn.</p>
+      <img src="https://showbizznetwork.nl/wp-content/uploads/2017/08/Foute-Vrienden-300x210.png" class="img-circle img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+<!-- ik heb dit blok toegevoegd en afbeeldingen toegevoegd -->
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com/">www.w3schools.com</a></p> 
+</footer>
+
+
+</body>
+</html>
